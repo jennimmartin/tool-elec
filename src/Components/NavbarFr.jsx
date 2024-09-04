@@ -1,4 +1,5 @@
-import { links } from "../data";
+import { Frlinks } from "../data";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
           Tool<span className="text-zinc-500">Elec</span>
         </h2>
         <div className="flex gap-x-3 text-zinc-600">
-          {links.map((link) => {
+          {Frlinks.map((link) => {
             const { id, href, text } = link;
             return (
               <a
@@ -21,6 +22,9 @@ const Navbar = () => {
             );
           })}
         </div>
+        <Link to="/uk" className="text-white">
+          English
+        </Link>
       </div>
     </nav>
   );

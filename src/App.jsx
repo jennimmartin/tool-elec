@@ -1,18 +1,18 @@
-import Trust from "./Components/Trust";
-import Footer from "./Components/Footer";
-import Hero from "./Components/Hero";
-import Navbar from "./Components/Navbar";
-import Projects from "./Components/Projects";
+import { HomeFr, HomeUk } from "./Pages";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomeFr />,
+  },
+  {
+    path: "/uk",
+    element: <HomeUk />,
+  },
+]);
 
 export default function App() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Trust />
-      <Projects />
-      <Trust />
-      <Footer />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }

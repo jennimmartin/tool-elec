@@ -1,14 +1,15 @@
-import Trust from "../Components/Trust";
-
 import HeroFr from "../Components/HeroFr";
 import NavbarFr from "../Components/NavbarFr";
-import Projects from "../Components/Projects";
+
+import FooterFr from "../Components/FooterFr";
 
 const HomeFr = () => {
   return (
     <>
       <NavbarFr />
       <HeroFr />
+
+      <FooterFr />
     </>
   );
 };

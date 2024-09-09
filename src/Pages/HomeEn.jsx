@@ -1,10 +1,10 @@
 import Trust from "../Components/Trust";
-import Footer from "../Components/Footer";
 
 import Projects from "../Components/Projects";
 
-import HeroEn from "../Components/HeroEn";
-import NavBarEn from "../Components/NavBarEn";
+import HeroEn from "../Components/ComponentsEn/HeroEn";
+import NavBarEn from "../Components/ComponentsEn/NavBarEn";
+import FooterEn from "../Components/ComponentsEn/FooterEn";
 
 const HomeUk = () => {
   return (
@@ -12,7 +12,7 @@ const HomeUk = () => {
       <NavBarEn />
       <HeroEn />
 
-      <Footer />
+      <FooterEn />
     </>
   );
 };

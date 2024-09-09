@@ -1,4 +1,4 @@
-import { links } from "../data";
+import { links } from "../../dataEn";
 import { Link } from "react-router-dom";
 
 const NavbarUk = () => {

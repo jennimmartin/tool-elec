@@ -1,4 +1,4 @@
-import { HomeFr, HomeUk } from "./Pages";
+import { HomeFr, HomeEn } from "./Pages";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -8,8 +8,8 @@ const router = createBrowserRouter([
     element: <HomeFr />,
   },
   {
-    path: "/uk",
-    element: <HomeUk />,
+    path: "/en",
+    element: <HomeEn />,
   },
 ]);
 

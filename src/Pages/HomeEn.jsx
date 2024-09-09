@@ -3,14 +3,14 @@ import Footer from "../Components/Footer";
 
 import Projects from "../Components/Projects";
 
-import HeroUk from "../Components/HeroUk";
-import NavBarUk from "../Components/NavBarUk";
+import HeroEn from "../Components/HeroEn";
+import NavBarEn from "../Components/NavBarEn";
 
 const HomeUk = () => {
   return (
     <>
-      <NavBarUk />
-      <HeroUk />
+      <NavBarEn />
+      <HeroEn />
 
       <Footer />
     </>

@@ -22,7 +22,7 @@ const Navbar = () => {
             );
           })}
         </div>
-        <Link to="/uk" className="text-white">
+        <Link to="/en" className="text-white">
           English
         </Link>
       </div>

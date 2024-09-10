@@ -7,13 +7,13 @@ export const Frlinks = [
   { id: nanoid(), href: "#projects", text: "projects" },
 ];
 
-export const Fatrust = [
+export const Frtrust = [
   { id: nanoid(), img: "IMAGE" },
   { id: nanoid(), img: "IMAGE2" },
   { id: nanoid(), img: "IMAGE3" },
 ];
 
-export const Faprojects = [
+export const Frprojects = [
   {
     id: nanoid(),
     img: "https://images.pexels.com/photos/5663011/pexels-photo-5663011.jpeg",
@@ -46,7 +46,7 @@ export const Faprojects = [
   },
 ];
 
-export const Fabrand = [
+export const Frbrand = [
   { id: nanoid(), img: "BRAND" },
   { id: nanoid(), img: "BRAND2" },
   { id: nanoid(), img: "BRAND3" },

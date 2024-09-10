@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { projects } from "../data";
+import { Frprojects } from "../data";
 import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
@@ -7,7 +7,7 @@ const Projects = () => {
     <section className="py-20 align-center" id="projects">
       <SectionTitle text="Your Project" />
       <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-2 gap-8">
-        {projects.map((project) => {
+        {Frprojects.map((project) => {
           return <ProjectCard key={project.id} {...project} />;
         })}
       </div>

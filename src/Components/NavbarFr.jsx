@@ -1,4 +1,4 @@
-import { Frlinks } from "../data";
+import { FrLinks } from "../data";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
           Tool<span className="text-zinc-500">Elec</span>
         </h2>
         <div className="flex gap-x-3 text-zinc-600">
-          {Frlinks.map((link) => {
+          {FrLinks.map((link) => {
             const { id, href, text } = link;
             return (
               <a

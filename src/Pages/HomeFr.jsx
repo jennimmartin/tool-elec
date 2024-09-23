@@ -1,6 +1,7 @@
 import HeroFr from "../Components/HeroFr";
 import NavbarFr from "../Components/NavbarFr";
 import TrustFr from "../Components/TrustFr";
+import ProjectsFr from "../Components/ProjectsFr";
 
 import FooterFr from "../Components/FooterFr";
 
@@ -10,6 +11,7 @@ const HomeFr = () => {
       <NavbarFr />
       <HeroFr />
       <TrustFr />
+      <ProjectsFr />
 
       <FooterFr />
     </>

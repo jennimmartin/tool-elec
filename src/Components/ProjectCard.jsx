@@ -1,4 +1,4 @@
-const ProjectCard = ({ img, title, text }) => {
+const ProjectCard = ({ img, title, text, cta }) => {
   return (
     <article className="rounded-lg shadow-md hover:shadow-xl duration-300">
       <img
@@ -11,6 +11,7 @@ const ProjectCard = ({ img, title, text }) => {
           {title}
         </h2>
         <p className="mt-4 text-zinc-50 leading-loose">{text}</p>
+        <p className="mt-4 text-zinc-50 leading-loose">{cta}</p>
       </div>
     </article>
   );

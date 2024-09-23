@@ -2,7 +2,7 @@ import { nanoid } from "nanoid";
 
 export const FrLinks = [
   { id: nanoid(), href: "#home", text: "Accueil" },
-  { id: nanoid(), href: "#projects", text: "projects" },
+  { id: nanoid(), href: "#projects", text: "Nos Spécialités" },
   { id: nanoid(), href: "#contact", text: "contact" },
 ];
 

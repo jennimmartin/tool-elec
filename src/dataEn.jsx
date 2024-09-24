@@ -56,7 +56,11 @@ export const projects = [
 ];
 
 export const brand = [
-  { id: nanoid(), img: "BRAND" },
-  { id: nanoid(), img: "BRAND2" },
-  { id: nanoid(), img: "BRAND3" },
+  {
+    id: nanoid(),
+    img: "https://assets.sc.hager.com/fr/-/media/project/hagerdeep/shared/images/logo_hager.png?h=86&la=fr-FR&w=256&hash=C816181852019173BB3EADA335CE44E7",
+    title: "hager logo",
+  },
+  { id: nanoid(), img: "BRAND2", title: "" },
+  { id: nanoid(), img: "BRAND3", title: "" },
 ];

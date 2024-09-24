@@ -1,7 +1,7 @@
 export const TrustCard = ({ img, title }) => {
   return (
     <article>
-      <span className="text-zinc-50">
+      <span className="">
         <img src={img} alt={title} />
       </span>
     </article>

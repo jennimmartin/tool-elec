@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="sticky top-0 bg-black">
-      <div className="mx-auto max-w-7xl px-8 py-4 flex flex-col justify-evenly sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+      <div className="align-element py-4 flex flex-col justify-evenly sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-3xl font-bold text-zinc-50">
           Tool<span className="text-zinc-500">Elec</span>
         </h2>

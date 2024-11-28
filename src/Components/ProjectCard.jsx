@@ -5,7 +5,7 @@ const ProjectCard = ({ img, title, text, cta }) => {
         src={img}
         className="h-50 w-50"
         alt={title}
-        className="w-full object-cover rounded-t-lg h-64 "
+        className="w-full object-cover rounded-t-lg h-64"
       />
       <div className="p-8">
         <h2 className="text-zinc-100 text-xl tracking-wide font-medium">

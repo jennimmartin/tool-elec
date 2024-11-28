@@ -15,4 +15,3 @@ const TrustEn = () => {
   );
 };
 export default TrustEn;
-C;

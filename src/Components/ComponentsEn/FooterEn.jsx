@@ -1,6 +1,6 @@
 const FooterEn = () => {
   return (
-    <section className="ext-5-xl tracking-wide text-zinc-50 text-center">
+    <section className="align-element tracking-wide text-zinc-50 text-center">
       <h5>
         <span className="font-bold">The Legal bits | </span> &copy;{" "}
         {new Date().getFullYear()}

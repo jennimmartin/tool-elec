@@ -3,9 +3,8 @@ const ProjectCard = ({ img, title, text, cta }) => {
     <article className="rounded-lg shadow-md hover:shadow-xl duration-300">
       <img
         src={img}
-        className="h-50 w-50"
+        className="h-50 w-50 w-full object-cover rounded-t-lg"
         alt={title}
-        className="w-full object-cover rounded-t-lg h-64"
       />
       <div className="p-8">
         <h2 className="text-zinc-100 text-xl tracking-wide font-medium">

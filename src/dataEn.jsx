@@ -5,6 +5,7 @@ import renoImg from "./Images/reno-photo.jpg";
 import maintImg from "./Images/maint-photo.jpg";
 import autoImg from "./Images/auto-photo.jpg";
 import newImg from "./Images/new-photo.jpg";
+import chargingImg from "./Images/charging-photo.jpg";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -27,36 +28,53 @@ export const projects = [
   {
     id: nanoid(),
     img: generalImg,
-    title: "General Electrical Issues",
-    text: "We have the skills (whatever the problem) to quickly and safely resolve it.  Available 24/7.",
-    cta: "Call us now (insert button)",
-  },
-  {
-    id: nanoid(),
-    img: renoImg,
-    title: "Renovations",
-    text: "Are you looking for a team who are adaptable to the challengers of your site?  Experienced to enable the best renovation possible? ",
-    cta: "Call us now (insert button)",
+    title: "general electrical issues",
+    text: "We have the skill (whatever the problem) to quickly and safely resolve it.  Available 24/7 ",
+    textb: "We are waiting for your call.",
+    cta: "",
   },
   {
     id: nanoid(),
     img: maintImg,
-    title: "Maintenance Contracts",
-    text: "Need someone who you can rely on - especially in an emergency?  We have multiple Electricians available to ensure we can get you, when you need us. ",
+    title: " Maintenance",
+    text: "Need someone who you can rely on - especially in an emergency? We have multiple Electricians available to ensure we can get you, when you need us. ",
+    textb:
+      "Our maintenance contacts ensure you have the solution for your business.",
+    cta: "",
+  },
+  {
+    id: nanoid(),
+    img: renoImg,
+    title: "Renovation",
+    text: "Are you looking for a team who are adaptable to the challenges of your site?  ",
+    textb: "Tool Elec have the skills to enable the best renovation possible?",
     cta: "",
   },
   {
     id: nanoid(),
     img: autoImg,
-    title: "Home automation",
-    text: "Take your home or business into the 21st century with a money saving technology that is simple to use and install.",
+    title: "home automation",
+    text: "Do you want to control your home from your fingertips?",
+    textb:
+      "We have the accreditation to bring your home into the 21st century.  Put your feet up, while we make your home as convenient as possible ",
     cta: "",
   },
   {
     id: nanoid(),
     img: newImg,
-    title: "Building a new home?",
-    text: "Finding the right team to make your home a reality can be stressful.  We see your project through from start to finish - every step of the way.  ",
+    title: "New builds",
+    text: "Finding the right team to make your home a reality can be stressful.  We’ll see your project through from start to finish - every step of the way.  ",
+    textb:
+      "We have helped many make their dream home a reality. Will you be next?",
+    cta: "",
+  },
+  {
+    id: nanoid(),
+    img: chargingImg,
+    title: "Bornes de recharge",
+    text: "Vous venez d’acquérir un véhicule électrique et vous avez besoin d’une borne de recharge ? Nous sommes habilités à réaliser ces installations.",
+    textb:
+      "De plus, dans notre flotte, nous disposons déjà d’un véhicule totalement électrique et nous avons du recul sur les moyen de charge disponible sur le marché, et de vous conseiller par rapport à vos besoins.",
     cta: "",
   },
 ];

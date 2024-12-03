@@ -5,6 +5,7 @@ import renoImg from "./Images/reno-photo.jpg";
 import maintImg from "./Images/maint-photo.jpg";
 import autoImg from "./Images/auto-photo.jpg";
 import newImg from "./Images/new-photo.jpg";
+import chargingImg from "./Images/charging-photo.jpg";
 
 export const FrLinks = [
   { id: nanoid(), href: "#home", text: "Accueil" },
@@ -26,36 +27,55 @@ export const FrProjects = [
   {
     id: nanoid(),
     img: generalImg,
-    title: "General Electrical Issues",
-    text: "We have the skills, whatever the problem, to quickly and safety resolve it.  Available 24/7.",
-    cta: "",
-  },
-  {
-    id: nanoid(),
-    img: renoImg,
-    title: "General Electrical Issues",
-    text: "We have the skills, whatever the problem, to quickly and safety resolve it",
+    title: "Dépannage",
+    text: "Nous avons les compétences (quel que soit le problème) pour le résoudre rapidement et en toute sécurité.   ",
+    textb:
+      "Disponible 24 heures sur 24, 7 jours sur 7.  Nous attendons votre appel.",
     cta: "",
   },
   {
     id: nanoid(),
     img: maintImg,
-    title: "General Electrical Issues",
-    text: "We have the skills, whatever the problem, to quickly and safety resolve it",
+    title: " Maintenance",
+    text: "Vous avez besoin de quelqu'un sur qui vous pouvez compter, surtout en cas d'urgence ?  Nous disposons de plusieurs électriciens afin de pouvoir vous dépanner quand vous en avez besoin. ",
+    textb:
+      "Nos contacts pour la maintenance vous garantissent une solution adaptée à votre entreprise.",
+    cta: "",
+  },
+  {
+    id: nanoid(),
+    img: renoImg,
+    title: "Rénovation",
+    text: "Vous cherchez une équipe qui s'adapte aux défis de votre habitation ?",
+    textb:
+      "Tool Elec a les compétences pour permettre la meilleure rénovation possible ?",
     cta: "",
   },
   {
     id: nanoid(),
     img: autoImg,
-    title: "General Electrical Issues",
-    text: "We have the skills, whatever the problem, to quickly and safety resolve it",
+    title: "Domotique",
+    text: "Vous souhaitez contrôler votre maison du bout des doigts ?",
+    textb:
+      "Nous avons l'accréditation nécessaire pour faire entrer votre maison dans le 21e siècle.  Mettez vos pieds sur terre, pendant que nous rendons votre maison aussi pratique que possible.",
     cta: "",
   },
   {
     id: nanoid(),
     img: newImg,
-    title: "General Electrical Issues",
-    text: "We have the skills, whatever the problem, to quickly and safety resolve it",
+    title: "Neuf",
+    text: "Trouver la bonne équipe pour faire de votre maison une réalité peut être stressant.  Nous suivrons votre projet du début à la fin, à chaque étape.  ",
+    textb:
+      "Nous avons aidé de nombreuses personnes à faire de leur rêve une réalité.  Serez-vous le prochain ?",
+    cta: "",
+  },
+  {
+    id: nanoid(),
+    img: chargingImg,
+    title: "Bornes de recharge",
+    text: "Vous venez d’acquérir un véhicule électrique et vous avez besoin d’une borne de recharge ? Nous sommes habilités à réaliser ces installations.",
+    textb:
+      "De plus, dans notre flotte, nous disposons déjà d’un véhicule totalement électrique et nous avons du recul sur les moyen de charge disponible sur le marché, et de vous conseiller par rapport à vos besoins.",
     cta: "",
   },
 ];

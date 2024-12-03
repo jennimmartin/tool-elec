@@ -1,14 +1,14 @@
 import { FrTrust } from "../data";
-import SectionTitle from "./SectionTitle";
+
 import { TrustCard } from "./TrustCard";
 
 const Trust = () => {
   return (
-    <section className="pb-20 align-center text-zinc-200 text-center">
+    <section className="align-element pb-20">
       <div>
-        <p>Nous avons la confiance de</p>
+        <p className=" text-zinc-200 text-center">Nous avons la confiance de</p>
       </div>
-      <div className="py-16 grid gap-8 md:grid-col-2 lg: grid-cols-3">
+      <div className="py-16 grid gap-8 md:grid-cols-3">
         {FrTrust.map((trust) => {
           return <TrustCard key={trust.id} {...trust} />;
         })}

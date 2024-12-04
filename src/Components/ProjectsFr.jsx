@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
   return (
-    <section className="py-20 align-element" id="projects">
+    <section className="py-32 align-element" id="projects">
       <SectionTitle text="Nos Spécialités" />
       <div className="py-16 grid lg:grid-cols-2 gap-8">
         {FrProjects.map((project) => {

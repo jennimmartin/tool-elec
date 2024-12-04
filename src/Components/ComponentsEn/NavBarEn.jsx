@@ -23,7 +23,7 @@ const NavbarUk = () => {
           })}
         </div>
         <Link to="/" className="text-zinc-500 hover:text-zinc-50 duration-100">
-          français
+          Français
         </Link>
       </div>
     </nav>

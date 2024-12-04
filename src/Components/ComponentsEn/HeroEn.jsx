@@ -9,10 +9,11 @@ const Hero = () => {
       </article>
       <article>
         <h2 className="text-[#2631F3] font-semibold text-3xl md:text-5xl pt-8 tracking-wider mx-auto grid px-8 text-center ">
-          insert english
+          The Answer To Your Electrical Needs
         </h2>
         <h3 className="text-zinc-100 text-2xl font-thin pt-4 tmd:text-3xl tracking-wider mx-auto grid max-w-5xl px-8 text-center">
-          insert english
+          Your responsive, reliable team of Tarentaise based Electricians
+          offering efficient support when you need it.
         </h3>
       </article>
       <div className="grid justify-center py-10 ">

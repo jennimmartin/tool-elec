@@ -28,10 +28,9 @@ export const FrProjects = [
     id: nanoid(),
     img: generalImg,
     title: "Dépannage",
-    text: "Nous avons les compétences (quel que soit le problème) pour le résoudre rapidement et en toute sécurité.   ",
-    textb:
-      "Disponible 24 heures sur 24, 7 jours sur 7.  Nous attendons votre appel.",
-    cta: "",
+    text: "Quel que soit le problème, petit ou grand, nous avons les compétences nécessaires pour le résoudre rapidement et en toute sécurité.",
+    textb: "Disponible 24 heures sur 24, 7 jours sur 7.",
+    cta: "Nous attendons votre appel.",
   },
   {
     id: nanoid(),

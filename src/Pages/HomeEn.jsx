@@ -14,9 +14,8 @@ const HomeUk = () => {
       <HeroEn />
       <TrustEn />
       <ProjectsEn />
-      <ContactEn />
       <BrandEn />
-
+      <ContactEn />
       <FooterEn />
     </>
   );

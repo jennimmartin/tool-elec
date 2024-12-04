@@ -16,9 +16,8 @@ const HomeFr = () => {
       <TrustFr />
 
       <ProjectsFr />
-      <ContactFr />
       <BrandFr />
-
+      <ContactFr />
       <FooterFr />
     </>
   );

@@ -4,9 +4,11 @@ import { TrustCard } from "./TrustCard";
 
 const Trust = () => {
   return (
-    <section className="align-element pb-20">
+    <section className="align-element">
       <div>
-        <p className=" text-zinc-200 text-center">Nous avons la confiance de</p>
+        <p className=" text-zinc-200 font-thin text-center">
+          Nous avons la confiance de
+        </p>
       </div>
       <div className="py-16 grid gap-8 md:grid-cols-3">
         {FrTrust.map((trust) => {

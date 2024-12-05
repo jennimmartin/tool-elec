@@ -1,3 +1,5 @@
+import { FaFacebookSquare } from "react-icons/fa";
+
 const FooterEn = () => {
   return (
     <section className="tracking-wide">
@@ -9,7 +11,12 @@ const FooterEn = () => {
           <p className="text-[#2631F3] font-bold">
             Your trusted Electrican in the Tarentaise
           </p>
-          <p className="text-zinc-200 grid font-thin">Available 24/7</p>
+          <p className="text-zinc-200 grid font-thin pb-3">Available 24/7</p>
+          <div>
+            <a href="https://www.facebook.com/tool.elec">
+              <FaFacebookSquare className="text-blue-700 h-6 w-6 hover:text-blue-400 duration-300" />
+            </a>
+          </div>
         </article>
         <div className="text-zinc-200 font-thin grid place-items-end">
           <p>Thomas Gehin</p>

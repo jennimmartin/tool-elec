@@ -1,4 +1,4 @@
-import { HomeFr, HomeEn } from "./Pages";
+import { HomeFr, HomeEn, Legal } from "./Pages";
 import Error from "./Pages/Error";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -12,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/en",
     element: <HomeEn />,
+  },
+  {
+    path: "/legal",
+    element: <Legal />,
   },
 ]);
 

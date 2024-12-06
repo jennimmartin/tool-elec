@@ -29,7 +29,7 @@ const ContactEn = () => {
       <p className=" text-zinc-200 font-thin py-20 text-center ">
         Of course you can also call us now -
         <a href="tel:+33-6-16-24-78-25">
-          <PiPhoneCallFill className="text-zinc-100 h-8 w-8 inline-grid cursor-pointer hover:text-green-500 duration-500" />
+          <PiPhoneCallFill className="text-zinc-100 h-8 w-8 inline-grid cursor-pointer hover:text-yellow-200 duration-500" />
         </a>
       </p>
     </section>

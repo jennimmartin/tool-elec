@@ -1,5 +1,7 @@
 import heroImg from "../assets/hero.svg";
 
+import { Link } from "react-router-dom";
+
 import { FaFacebookSquare } from "react-icons/fa";
 
 const FooterFr = () => {
@@ -23,15 +25,17 @@ const FooterFr = () => {
           </div>
         </article>
         <div className="text-zinc-200 font-thin grid place-items-end">
-          <p>Thomas Gehin</p>
-          <p>0.5 carlene 73210 la plagne tarentaise</p>
-          <p>06 16 24 78 24</p>
+          <p>0.5 Carlene, 73210, La Plagne, Tarentaise</p>
+          <p>06.16.24.78.24.</p>
+          <p>toolelec73@gmail.com</p>
         </div>
       </div>
 
-      <h5 className="text-center pt-6 font-thin text-zinc-500">
-        <span className="font-bold">Mentions légales </span> | &copy;{" "}
-        {new Date().getFullYear()}
+      <h5 className="text-center pt-6 font-thin text-zinc-200">
+        <span className="font-bold  hover:text-zinc-500 duration-300">
+          <Link to="/legal">Mentions légales </Link>
+        </span>
+        | &copy; {new Date().getFullYear()}
         <span> | créé par jennimmartin</span>
       </h5>
       <div className="border-b border-red-500 pb-2 "></div>

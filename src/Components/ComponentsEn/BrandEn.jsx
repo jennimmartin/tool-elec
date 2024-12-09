@@ -10,7 +10,7 @@ const Brand = () => {
           Working with the best brands
         </p>
       </div>
-      <div className="py-16 grid gap-8 md:grid-col-2 lg: grid-cols-3">
+      <div className="py-16 grid gap-8 md:grid-cols-3">
         {brand.map((brand) => {
           return <TrustCard key={brand.id} {...brand} />;
         })}

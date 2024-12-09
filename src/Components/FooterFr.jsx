@@ -7,7 +7,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 const FooterFr = () => {
   return (
     <section className="tracking-wide">
-      <div className="align-element grid md:grid-cols-2 pb-3">
+      <div className="align-element grid md:grid-cols-2">
         <article className="">
           <p className="text-2xl font-bold text-zinc-50">
             Tool<span className="text-zinc-500">Elec</span>
@@ -15,7 +15,7 @@ const FooterFr = () => {
           <p className="text-[#2631F3] font-bold">
             Votre électricien de confiance en Tarentaise
           </p>
-          <p className="text-zinc-200 grid font-thin pb-3">
+          <p className="text-zinc-200 grid font-thin">
             Disponible 24 heures sur 24, 7 jours sur 7.
           </p>
           <div>
@@ -24,7 +24,7 @@ const FooterFr = () => {
             </a>
           </div>
         </article>
-        <div className="text-zinc-200 font-thin grid place-items-end">
+        <div className="text-zinc-200 font-thin grid md:place-items-end">
           <p>0.5 Carlene, 73210, La Plagne, Tarentaise</p>
           <p>06.16.24.78.24.</p>
           <p>toolelec73@gmail.com</p>

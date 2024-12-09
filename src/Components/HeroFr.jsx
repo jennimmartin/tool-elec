@@ -1,4 +1,4 @@
-import heroImg from "../assets/hero.svg";
+import heroImg from "../Images/hero.svg";
 import Button from "./Button";
 import TrustFr from "./TrustFr";
 

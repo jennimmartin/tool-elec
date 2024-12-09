@@ -1,5 +1,3 @@
-import heroImg from "../assets/hero.svg";
-
 import { Link } from "react-router-dom";
 
 import { FaFacebookSquare } from "react-icons/fa";

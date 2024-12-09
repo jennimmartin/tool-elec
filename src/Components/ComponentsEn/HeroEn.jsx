@@ -1,4 +1,4 @@
-import heroImg from "../../images/hero.svg";
+import heroImg from "../../Images/hero.svg";
 import Button from "../Button";
 
 const Hero = () => {

@@ -29,25 +29,25 @@ export const FrProjects = [
     img: generalImg,
     title: "Dépannage",
     text: "Quel que soit le problème, petit ou grand, nous avons les compétences nécessaires pour le résoudre rapidement et en toute sécurité.",
-    textb: "Disponible 24 heures sur 24, 7 jours sur 7.",
+    textb: "",
     cta: "Nous attendons votre appel.",
   },
   {
     id: nanoid(),
     img: maintImg,
-    title: " Maintenance",
-    text: "Vous avez besoin de quelqu'un sur qui vous pouvez compter, surtout en cas d'urgence ?  Nous disposons de plusieurs électriciens afin de pouvoir vous dépanner quand vous en avez besoin. ",
+    title: "Maintenance",
+    text: "Besoin de quelqu’un sur qui compter — surtout en cas d’urgence ? Grâce à plusieurs électriciens disponibles, nous pouvons intervenir rapidement.",
     textb:
-      "Nos contacts pour la maintenance vous garantissent une solution adaptée à votre entreprise.",
+      "Nos contrats de maintenance sont adaptés aux besoins de votre entreprise.",
     cta: "",
   },
   {
     id: nanoid(),
     img: renoImg,
     title: "Rénovation",
-    text: "Vous cherchez une équipe qui s'adapte aux défis de votre habitation ?",
+    text: "Vous cherchez une équipe capable de s’adapter aux défis de votre chantier ?",
     textb:
-      "Tool Elec a les compétences pour permettre la meilleure rénovation possible ?",
+      "Tool Elec possède les compétences nécessaires pour réaliser vos rénovations dans les meilleures conditions.",
     cta: "",
   },
   {
@@ -56,25 +56,25 @@ export const FrProjects = [
     title: "Domotique",
     text: "Vous souhaitez contrôler votre maison du bout des doigts ?",
     textb:
-      "Nous avons l'accréditation nécessaire pour faire entrer votre maison dans le 21e siècle.  Mettez vos pieds sur terre, pendant que nous rendons votre maison aussi pratique que possible.",
+      "Nous avons le savoir-faire pour faire entrer votre maison dans le 21e siècle.",
     cta: "",
   },
   {
     id: nanoid(),
     img: newImg,
     title: "Neuf",
-    text: "Trouver la bonne équipe pour faire de votre maison une réalité peut être stressant.  Nous suivrons votre projet du début à la fin, à chaque étape.  ",
+    text: "Trouver la bonne équipe pour donner vie à votre maison peut être stressant. Nous suivons votre projet du début à la fin, à chaque étape.",
     textb:
-      "Nous avons aidé de nombreuses personnes à faire de leur rêve une réalité.  Serez-vous le prochain ?",
+      "De nombreux clients ont déjà réalisé leur maison de rêve avec nous. Et vous ?",
     cta: "",
   },
   {
     id: nanoid(),
     img: chargingImg,
     title: "Bornes de recharge",
-    text: "Vous venez d’acquérir un véhicule électrique et vous avez besoin d’une borne de recharge ? Nous sommes habilités à réaliser ces installations.",
+    text: "Vous venez d’acheter un véhicule électrique et vous avez besoin d’une borne de recharge ? Nous réalisons ces installations.",
     textb:
-      "De plus, dans notre flotte, nous disposons déjà d’un véhicule totalement électrique et nous avons du recul sur les moyen de charge disponible sur le marché, et de vous conseiller par rapport à vos besoins.",
+      "Avec un véhicule 100 % électrique dans notre flotte, nous connaissons bien les solutions disponibles et pouvons vous conseiller au mieux.",
     cta: "",
   },
 ];

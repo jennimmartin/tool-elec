@@ -7,7 +7,7 @@ const Brand = () => {
     <section className="align-element align-center">
       <div>
         <p className=" text-zinc-200 font-thin text-center">
-          Collaborer avec les meilleurs marques
+          Nous travaillons avec les meilleures marques
         </p>
       </div>
       <div className="py-16 grid gap-8 md:grid-cols-3">

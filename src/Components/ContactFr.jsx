@@ -7,14 +7,13 @@ const ContactFr = () => {
     <section className="align-element py-32" id="contact">
       <SectionTitle text="Contact" />
       <p className="align-element max-w-[600px] font-thin text-center py-8 text-zinc-100">
-        Toute notre équipe vit dans la vallée de la Tarentaise, toute l'année.
-        Nous comprenons les défis de la vie et du travail en montagne.
-        comprenons les défis de la vie et du travail en montagne, aux côtés de
-        l'industrie du ski.
+        Notre équipe vit toute l’année dans la vallée de la Tarentaise. Nous
+        connaissons bien les défis de la vie et du travail en montagne, aux
+        côtés de l’industrie du ski.
       </p>
       <p className="align-element max-w-[600px] font-thin text-center text-zinc-200">
-        Nos devis sont gratuits et nous ne communiquerons jamais vos coordonnées
-        à un tiers. tiers.
+        Nos devis sont gratuits et vos coordonnées restent strictement
+        confidentielles.
       </p>
 
       <a href="mailto:toolelec73@gmail.com">
@@ -30,7 +29,7 @@ const ContactFr = () => {
         </article>
       </a>
       <p className=" text-zinc-200 font-thin py-20 text-center ">
-        Bien entendu, vous pouvez également nous appeler dès maintenant -
+        Ou appelez-nous dès maintenant -
         <a href="tel:+33-6-16-24-78-25">
           <PiPhoneCallFill className="text-zinc-100 h-8 w-8 inline-grid cursor-pointer hover:text-yellow-200 duration-300" />
         </a>

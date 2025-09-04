@@ -7,13 +7,13 @@ const ContactEn = () => {
     <section className="align-element py-32" id="contact">
       <SectionTitle text="Contact" />
       <p className="align-element max-w-[600px] font-thin text-center py-8 text-zinc-100">
-        Our whole team live in the valley of the Tarentaise, year round. We
-        understand the challenges of living and working in the mountains,
-        alongside the ski industry.
+        Our whole team lives year-round in the Tarentaise Valley. We understand
+        the challenges of living and working in the mountains, alongside the ski
+        industry.
       </p>
       <p className="align-element max-w-[600px] font-thin text-center text-zinc-200">
-        Our quotes are free and we will never share your details to a third
-        party.
+        Our quotes are free, and we will never share your details with third
+        parties.
       </p>
 
       <a href="mailto:toolelec73@gmail.com">
@@ -27,7 +27,7 @@ const ContactEn = () => {
         </article>
       </a>
       <p className=" text-zinc-200 font-thin py-20 text-center ">
-        Of course you can also call us now -
+        Or call us now -
         <a href="tel:+33-6-16-24-78-25">
           <PiPhoneCallFill className="text-zinc-100 h-8 w-8 inline-grid cursor-pointer hover:text-yellow-200 duration-500" />
         </a>

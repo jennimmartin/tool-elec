@@ -2,10 +2,10 @@ import React from "react";
 
 const CONFIG = {
   companyName: "Tool Elec",
-  legalForm: "Auto-entrepreneur / SARL / SAS", // choose one
-  siret: "451664064", // delete if not applicable
-  vat: "FR12 345678901", // delete if not applicable
-  rcs: "Paris", // delete if not applicable
+  legalForm: "SAS", // choose one
+  siret: "84124642400011", // delete if not applicable
+  vat: "FR74 841246424", // delete if not applicable
+  rcs: "Chambéry", // delete if not applicable
   address: "0.5 Carene, 73210 LA PLAGNE TARENTAISE", // add company address
   contactEmail: "toolelec73@gmail.com", // official email
   contactPhone: "+33 6 16 24 78 25", // optional

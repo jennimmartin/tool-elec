@@ -1,5 +1,3 @@
-import React from "react";
-
 const CONFIG = {
   companyName: "Tool Elec",
   legalForm: "SAS", // choose one

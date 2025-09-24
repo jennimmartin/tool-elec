@@ -19,7 +19,7 @@ const CONFIG = {
 
 export default function LegalNotice() {
   return (
-    <div className="p-6 max-w-3xl mx-auto space-y-10  text-zinc-300 font-light leading-loose">
+    <div className="p-6 max-w-3xl mx-auto space-y-10 font-light leading-loose">
       {/* French Version */}
       <section>
         <h2 className="text-2xl font-bold mb-4">Mentions Légales</h2>
@@ -108,7 +108,7 @@ export default function LegalNotice() {
           en est fait.
         </p>
 
-        <p className="text-sm mt-6 text-zinc-500">
+        <p className="text-sm mt-6">
           Dernière mise à jour : {CONFIG.lastUpdated}
         </p>
       </section>
@@ -197,7 +197,7 @@ export default function LegalNotice() {
           or the use made of this information.
         </p>
 
-        <p className="text-sm mt-6  text-zinc-500 font-light leading-loose">
+        <p className="text-sm mt-6 font-light leading-loose">
           Last updated: {CONFIG.lastUpdated}
         </p>
       </section>

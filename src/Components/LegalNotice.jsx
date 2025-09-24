@@ -19,7 +19,7 @@ const CONFIG = {
 
 export default function LegalNotice() {
   return (
-    <div className="p-6 max-w-3xl mx-auto space-y-10">
+    <div className="p-6 max-w-3xl mx-auto space-y-10  text-zinc-300 font-light leading-loose">
       {/* French Version */}
       <section>
         <h2 className="text-2xl font-bold mb-4">Mentions Légales</h2>
@@ -63,20 +63,20 @@ export default function LegalNotice() {
           {CONFIG.host.location}
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Objet</h3>
+        <h3 className="text-lg mt-4 font-bold">Objet</h3>
         <p>
           Ce site a pour but de fournir des informations sur les services de{" "}
           {CONFIG.companyName}. Aucune transaction commerciale n’est effectuée
           via ce site.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Statistiques</h3>
+        <h3 className="text-lg mt-4 font-bold">Statistiques</h3>
         <p>
           Ce site utilise {CONFIG.analytics}. Aucun cookie n’est déposé et
           aucune donnée personnelle n’est collectée.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Données personnelles</h3>
+        <h3 className="text-lg mt-4 font-bold">Données personnelles</h3>
         <p>
           La prise de contact se fait directement par email via votre propre
           messagerie. Par conséquent, aucune donnée personnelle n’est stockée
@@ -85,13 +85,13 @@ export default function LegalNotice() {
           RGPD.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Propriété intellectuelle</h3>
+        <h3 className="text-lg mt-4 font-bold">Propriété intellectuelle</h3>
         <p>
           L’ensemble du contenu de ce site (textes, images, logo) est la
           propriété de {CONFIG.companyName}, sauf mention contraire. Toute
           reproduction ou diffusion sans autorisation préalable est interdite.
         </p>
-        <h3 className="text-lg font-semibold mt-4">Contenu tiers</h3>
+        <h3 className="text-lg mt-4 font-bold">Contenu tiers</h3>
         <p>
           Les logos, marques et autres éléments visuels tiers présentés sur ce
           site restent la propriété de leurs détenteurs respectifs. Leur
@@ -100,7 +100,7 @@ export default function LegalNotice() {
           partenariat officiel.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Responsabilité</h3>
+        <h3 className="text-lg mt-4 font-bold">Responsabilité</h3>
         <p>
           Les informations fournies sur ce site le sont à titre indicatif.
           Malgré le soin apporté à leur exactitude, {CONFIG.companyName} ne
@@ -108,7 +108,7 @@ export default function LegalNotice() {
           en est fait.
         </p>
 
-        <p className="text-sm mt-6 text-gray-500">
+        <p className="text-sm mt-6 text-zinc-500">
           Dernière mise à jour : {CONFIG.lastUpdated}
         </p>
       </section>
@@ -155,19 +155,19 @@ export default function LegalNotice() {
           {CONFIG.host.location}
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Purpose</h3>
+        <h3 className="text-lg mt-4 font-bold">Purpose</h3>
         <p>
           This website provides information about {CONFIG.companyName}’s
           services. No commercial transactions are carried out on this site.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Analytics</h3>
+        <h3 className="text-lg mt-4 font-bold">Analytics</h3>
         <p>
           This site uses {CONFIG.analytics}. No cookies are set, and no
           personally identifiable information is collected.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Personal Data</h3>
+        <h3 className="text-lg mt-4 font-bold">Personal Data</h3>
         <p>
           Contact is made directly by email via your own email client. As a
           result, no personal data is stored on this site. Any personal
@@ -175,13 +175,13 @@ export default function LegalNotice() {
           the purpose of responding to your request, in accordance with GDPR.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Intellectual Property</h3>
+        <h3 className="text-lg mt-4 font-bold">Intellectual Property</h3>
         <p>
           All content on this site (text, images, logo) is the property of{" "}
           {CONFIG.companyName}, unless otherwise stated. Any reproduction or
           distribution without prior authorization is prohibited.
         </p>
-        <h3 className="text-lg font-semibold mt-4">Third-Party Content</h3>
+        <h3 className="text-lg mt-4 font-bold">Third-Party Content</h3>
         <p>
           Logos, trademarks, and other third-party visuals displayed on this
           site remain the property of their respective owners. Their use on this
@@ -189,7 +189,7 @@ export default function LegalNotice() {
           imply any affiliation, sponsorship, or endorsement.
         </p>
 
-        <h3 className="text-lg font-semibold mt-4">Liability</h3>
+        <h3 className="text-lg mt-4 font-bold">Liability</h3>
         <p>
           The information on this site is provided for informational purposes
           only. While every effort is made to ensure accuracy,{" "}
@@ -197,7 +197,7 @@ export default function LegalNotice() {
           or the use made of this information.
         </p>
 
-        <p className="text-sm mt-6 text-gray-500">
+        <p className="text-sm mt-6  text-zinc-500 font-light leading-loose">
           Last updated: {CONFIG.lastUpdated}
         </p>
       </section>

@@ -7,6 +7,10 @@ import autoImg from "./Images/auto-photo.jpg";
 import newImg from "./Images/new-photo.jpg";
 import chargingImg from "./Images/charging-photo.jpg";
 
+import battImg from "./Images/batt-logo.png";
+import bobImg from "./Images/bob-logo.png";
+import cheyImg from "./Images/cheyenne-logo.png";
+
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#projects", text: "projects" },
@@ -15,13 +19,13 @@ export const links = [
 ];
 
 export const trust = [
-  { id: nanoid(), img: "IMAGE", title: "" },
+  { id: nanoid(), img: bobImg, title: "" },
+  { id: nanoid(), img: cheyImg, title: "" },
   {
     id: nanoid(),
-    img: "https://en.la-plagne.com/sites/default/files/styles/wysiwyg_md/public/medias/images/logo_bob_small.png?itok=YESVC2dh",
+    img: battImg,
     title: "logo",
   },
-  { id: nanoid(), img: "IMAGE3", title: "" },
 ];
 
 export const projects = [

@@ -23,12 +23,12 @@ export const links = [
 ];
 
 export const trust = [
-  { id: nanoid(), img: bobImg, title: "" },
-  { id: nanoid(), img: cheyImg, title: "" },
+  { id: nanoid(), img: bobImg, title: "la plagne bobsleigh logo" },
+  { id: nanoid(), img: cheyImg, title: "cheyenne cafe la plagne logo" },
   {
     id: nanoid(),
     img: battImg,
-    title: "logo",
+    title: "battendier jacky et fils logo",
   },
 ];
 
@@ -94,8 +94,8 @@ export const brand = [
   {
     id: nanoid(),
     img: basalteImg,
-    title: "",
+    title: "basalte logo",
   },
 
-  { id: nanoid(), img: legrandImg, title: "" },
+  { id: nanoid(), img: legrandImg, title: "legrand logo" },
 ];

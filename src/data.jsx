@@ -22,12 +22,12 @@ export const FrLinks = [
 ];
 
 export const FrTrust = [
-  { id: nanoid(), img: bobImg, title: "" },
-  { id: nanoid(), img: cheyImg, title: "" },
+  { id: nanoid(), img: bobImg, title: "bobsleigh la plagne logo" },
+  { id: nanoid(), img: cheyImg, title: "cheyenne cafe la plagne logo" },
   {
     id: nanoid(),
     img: battImg,
-    title: "logo",
+    title: "battendier jacky et fils logo",
   },
 ];
 
@@ -96,8 +96,8 @@ export const FrBrand = [
   {
     id: nanoid(),
     img: basalteImg,
-    title: "",
+    title: "basalte logo",
   },
 
-  { id: nanoid(), img: legrandImg, title: "" },
+  { id: nanoid(), img: legrandImg, title: "legrand logo" },
 ];

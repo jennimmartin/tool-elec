@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { PiPhoneCallFill } from "react-icons/pi";
 
-const ProjectCard = ({ img, title, text, textb }) => {
+const ProjectCard = ({ img, title, text, textb, cta }) => {
   return (
     <div className="px-8 h-full">
       <article className="flex flex-col h-full">
@@ -24,7 +24,7 @@ const ProjectCard = ({ img, title, text, textb }) => {
               className="inline-flex items-center bg-blue-600 text-zinc-100 px-3 py-2 rounded hover:bg-blue-700 transition"
             >
               <PiPhoneCallFill className="mr-2" />
-              Appeler maintenant
+              {cta}
             </a>
           </div>
         </div>

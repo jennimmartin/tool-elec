@@ -38,6 +38,7 @@ export const FrProjects = [
     title: "Dépannage",
     text: "Quel que soit le problème, petit ou grand, nous avons les compétences nécessaires pour le résoudre rapidement et en toute sécurité.",
     textb: "Nous attendons votre appel.",
+    cta: "Appeler maintenant",
   },
   {
     id: nanoid(),
@@ -46,6 +47,7 @@ export const FrProjects = [
     text: "Besoin de quelqu’un sur qui compter — surtout en cas d’urgence ? Grâce à plusieurs électriciens disponibles, nous pouvons intervenir rapidement.",
     textb:
       "Nos contrats de maintenance sont adaptés aux besoins de votre entreprise.",
+    cta: "Appeler maintenant",
   },
   {
     id: nanoid(),
@@ -54,6 +56,7 @@ export const FrProjects = [
     text: "Vous cherchez une équipe capable de s’adapter aux défis de votre chantier ?",
     textb:
       "Tool Elec possède les compétences nécessaires pour réaliser vos rénovations dans les meilleures conditions.",
+    cta: "Appeler maintenant",
   },
   {
     id: nanoid(),
@@ -62,6 +65,7 @@ export const FrProjects = [
     text: "Vous souhaitez contrôler votre maison du bout des doigts ?",
     textb:
       "Nous avons le savoir-faire pour faire entrer votre maison dans le 21e siècle.",
+    cta: "Appeler maintenant",
   },
   {
     id: nanoid(),
@@ -70,6 +74,7 @@ export const FrProjects = [
     text: "Trouver la bonne équipe pour donner vie à votre maison peut être stressant. Nous suivons votre projet du début à la fin, à chaque étape.",
     textb:
       "De nombreux clients ont déjà réalisé leur maison de rêve avec nous. Et vous ?",
+    cta: "Appeler maintenant",
   },
   {
     id: nanoid(),
@@ -78,6 +83,7 @@ export const FrProjects = [
     text: "Vous venez d’acheter un véhicule électrique et vous avez besoin d’une borne de recharge ? Nous réalisons ces installations.",
     textb:
       "Avec un véhicule 100 % électrique dans notre flotte, nous connaissons bien les solutions disponibles et pouvons vous conseiller au mieux.",
+    cta: "Appeler maintenant",
   },
 ];
 

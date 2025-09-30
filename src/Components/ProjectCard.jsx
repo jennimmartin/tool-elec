@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const ProjectCard = ({ img, title, text, textb, cta }) => {
   return (
     <div className="px-8">
@@ -18,5 +20,13 @@ const ProjectCard = ({ img, title, text, textb, cta }) => {
       </article>
     </div>
   );
+};
+
+ProjectCard.propTypes = {
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  textb: PropTypes.string,
+  cta: PropTypes.string,
 };
 export default ProjectCard;

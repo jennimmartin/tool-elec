@@ -1,6 +1,5 @@
 import heroImg from "../Images/hero.jpg";
 import Button from "./Button";
-import TrustFr from "./TrustFr";
 
 const Hero = () => {
   return (

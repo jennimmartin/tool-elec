@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export const TrustCard = ({ img, title }) => {
   return (
     <article>
@@ -6,4 +8,9 @@ export const TrustCard = ({ img, title }) => {
       </span>
     </article>
   );
+};
+
+TrustCard.propTypes = {
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };

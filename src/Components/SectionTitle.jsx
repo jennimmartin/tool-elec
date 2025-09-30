@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const SectionTitle = ({ text }) => {
   return (
     <div>
@@ -6,5 +8,9 @@ const SectionTitle = ({ text }) => {
       </h2>
     </div>
   );
+};
+
+SectionTitle.propTypes = {
+  text: PropTypes.string,
 };
 export default SectionTitle;

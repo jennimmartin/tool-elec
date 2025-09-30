@@ -1,5 +1,5 @@
 import { FrBrand } from "../data";
-import SectionTitle from "./SectionTitle";
+
 import { TrustCard } from "./TrustCard";
 
 const Brand = () => {

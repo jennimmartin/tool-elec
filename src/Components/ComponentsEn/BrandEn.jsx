@@ -1,5 +1,5 @@
 import { brand } from "../../dataEn";
-import SectionTitle from "../SectionTitle";
+
 import { TrustCard } from "../TrustCard";
 
 const Brand = () => {

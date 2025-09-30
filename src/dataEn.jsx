@@ -39,7 +39,6 @@ export const projects = [
     title: "general electrical issues",
     text: "Whatever the problem — big or small — we have the skills to resolve it quickly and safely.",
     textb: "Available 24/7.  Just give us a call",
-    cta: "",
   },
   {
     id: nanoid(),
@@ -47,7 +46,6 @@ export const projects = [
     title: " Maintenance",
     text: "Need someone you can rely on — especially in an emergency? With several electricians available, we can be there when you need us",
     textb: "Our Maintenance contracts can be tailored to your business needs.",
-    cta: "",
   },
   {
     id: nanoid(),
@@ -55,7 +53,6 @@ export const projects = [
     title: "Renovations",
     text: "Looking for a team that adapts to the challenges of your site? ",
     textb: "Tool Elec has the skills to deliver the best renovation possible.",
-    cta: "",
   },
   {
     id: nanoid(),
@@ -63,7 +60,6 @@ export const projects = [
     title: "home automation",
     text: "Want to control your home from your fingertips? ",
     textb: "We have the expertise to bring your home into the 21st century.",
-    cta: "",
   },
   {
     id: nanoid(),
@@ -72,7 +68,6 @@ export const projects = [
     text: "Finding the right team to bring your home to life can be stressful. We’ll guide your project from start to finish — every step of the way.",
     textb:
       "We’ve already helped many clients make their dream home a reality. Will yours be next?",
-    cta: "",
   },
   {
     id: nanoid(),
@@ -81,7 +76,6 @@ export const projects = [
     text: "Just bought an electric vehicle and need a charging point installed? We can take care of it.",
     textb:
       "With a fully electric van in our fleet, we’re well-placed to advise you on all the options available.",
-    cta: "",
   },
 ];
 

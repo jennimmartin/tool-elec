@@ -12,7 +12,7 @@ import ContactEn from "../Components/ComponentsEn/ContactEn";
 const HomeEn = () => {
   const siteUrl = "https://toolelec.fr"; // Update if your English pages use a subdomain
 
-  const pageTitle = "Home - Tool Elec";
+  const pageTitle = "Tool Elec - Home";
   const pageDescription =
     "Tarentaise Electrician 24/7 - Repairs, renovation, smart home, charging stations. Local team specialized in mountain and ski industry. Free quote.";
 
@@ -36,6 +36,70 @@ const HomeEn = () => {
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Tool Elec" />
+      </Helmet>
+
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Electrician",
+            name: "Tool Elec",
+            image: "https://toolelec.fr/SmallLogo.jpg",
+            "@id": "https://toolelec.fr/",
+            url: "https://toolelec.fr/",
+            telephone: "+33 6 16 24 78 25",
+            description:
+              "Tarentaise Electrician - Repairs, renovation, smart home, charging stations. Available 24/7 for emergencies.",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "0.5 Carene, Belle Plagne",
+              addressLocality: "Tarentaise",
+              postalCode: "73210",
+              addressCountry: "FR",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 45.508809940481235,
+              longitude: 6.70686872636202,
+            },
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "08:00",
+                closes: "18:00",
+              },
+            ],
+            specialOpeningHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "00:00",
+                closes: "23:59",
+                validFrom: new Date().toISOString().split("T")[0],
+                validThrough: `${new Date().getFullYear()}-12-31`,
+                description: "Available 24/7 for emergencies",
+              },
+            ],
+            sameAs: ["https://www.facebook.com/tool.elec"],
+          })}
+        </script>
       </Helmet>
 
       <NavBarEn />

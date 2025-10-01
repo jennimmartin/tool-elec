@@ -35,6 +35,7 @@ const ProjectCard = ({ img, title, text, textb, cta }) => {
 
 ProjectCard.propTypes = {
   img: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string,
   textb: PropTypes.string,

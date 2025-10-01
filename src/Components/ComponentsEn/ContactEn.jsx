@@ -20,7 +20,7 @@ const ContactEn = () => {
         <article className="grid justify-center">
           <img
             src={contactImg}
-            alt="hard at work"
+            alt="email us"
             className="h-64 w-64 object-cover"
           />
           <p className="text-center pt-0 font-thin text-zinc-200">Email us</p>

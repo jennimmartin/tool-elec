@@ -22,12 +22,23 @@ export const FrLinks = [
 ];
 
 export const FrTrust = [
-  { id: nanoid(), img: bobImg, title: "bobsleigh la plagne logo" },
-  { id: nanoid(), img: cheyImg, title: "cheyenne cafe la plagne logo" },
+  {
+    id: nanoid(),
+    img: bobImg,
+    alt: "logo La Plagne Bobsleigh",
+    title: "Logo La Plagne Bobsleigh",
+  },
+  {
+    id: nanoid(),
+    img: cheyImg,
+    alt: "logo Cheyenne Café La Plagne",
+    title: "Logo Cheyenne Café La Plagne",
+  },
   {
     id: nanoid(),
     img: battImg,
-    title: "battendier jacky et fils logo",
+    alt: "logo Battendier Jacky et Fils",
+    title: "Logo Battendier Jacky et Fils",
   },
 ];
 
@@ -35,6 +46,7 @@ export const FrProjects = [
   {
     id: nanoid(),
     img: generalImg,
+    alt: "photo d'un tableau électrique en cours de réparation",
     title: "Dépannage",
     text: "Quel que soit le problème, petit ou grand, nous avons les compétences nécessaires pour le résoudre rapidement et en toute sécurité.",
     textb: "Nous attendons votre appel.",
@@ -43,6 +55,7 @@ export const FrProjects = [
   {
     id: nanoid(),
     img: maintImg,
+    alt: "photo de tubes électriques prêts pour le câblage",
     title: "Maintenance",
     text: "Besoin de quelqu’un sur qui compter — surtout en cas d’urgence ? Grâce à plusieurs électriciens disponibles, nous pouvons intervenir rapidement.",
     textb:
@@ -52,6 +65,7 @@ export const FrProjects = [
   {
     id: nanoid(),
     img: renoImg,
+    alt: "photo d'une cuisine rénovée",
     title: "Rénovation",
     text: "Vous cherchez une équipe capable de s’adapter aux défis de votre chantier ?",
     textb:
@@ -61,6 +75,7 @@ export const FrProjects = [
   {
     id: nanoid(),
     img: autoImg,
+    alt: "photo d'une maison contrôlée par tablette",
     title: "Domotique",
     text: "Vous souhaitez contrôler votre maison du bout des doigts ?",
     textb:
@@ -70,6 +85,7 @@ export const FrProjects = [
   {
     id: nanoid(),
     img: newImg,
+    alt: "photo d’un point électrique neuf en cours d’installation",
     title: "Neuf",
     text: "Trouver la bonne équipe pour donner vie à votre maison peut être stressant. Nous suivons votre projet du début à la fin, à chaque étape.",
     textb:
@@ -79,6 +95,7 @@ export const FrProjects = [
   {
     id: nanoid(),
     img: chargingImg,
+    alt: "photo d'une voiture en charge",
     title: "Bornes de recharge",
     text: "Vous venez d’acheter un véhicule électrique et vous avez besoin d’une borne de recharge ? Nous réalisons ces installations.",
     textb:
@@ -91,13 +108,19 @@ export const FrBrand = [
   {
     id: nanoid(),
     img: hagerImg,
-    title: "hager logo",
+    alt: "logo Hager",
+    title: "Logo Hager",
   },
   {
     id: nanoid(),
     img: basalteImg,
-    title: "basalte logo",
+    alt: "logo Basalte",
+    title: "Logo Basalte",
   },
-
-  { id: nanoid(), img: legrandImg, title: "legrand logo" },
+  {
+    id: nanoid(),
+    img: legrandImg,
+    alt: "logo Legrand",
+    title: "Logo Legrand",
+  },
 ];

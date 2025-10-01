@@ -20,7 +20,7 @@ const ContactFr = () => {
         <article className="grid justify-center">
           <img
             src={contactImg}
-            alt="hard at work"
+            alt="Nous contacter par email"
             className="h-64 w-64 object-cover"
           />
           <p className="text-center font-thin pt-0 text-zinc-200">

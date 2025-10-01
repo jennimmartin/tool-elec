@@ -23,11 +23,22 @@ export const links = [
 ];
 
 export const trust = [
-  { id: nanoid(), img: bobImg, title: "la plagne bobsleigh logo" },
-  { id: nanoid(), img: cheyImg, title: "cheyenne cafe la plagne logo" },
+  {
+    id: nanoid(),
+    img: bobImg,
+    alt: "la plagne bobsleigh logo",
+    title: "la plagne bobsleigh logo",
+  },
+  {
+    id: nanoid(),
+    img: cheyImg,
+    alt: "cheyenne cafe la plagne logo",
+    title: "cheyenne cafe la plagne logo",
+  },
   {
     id: nanoid(),
     img: battImg,
+    alt: "battendier jacky et fils logo",
     title: "battendier jacky et fils logo",
   },
 ];
@@ -36,6 +47,7 @@ export const projects = [
   {
     id: nanoid(),
     img: generalImg,
+    alt: "photo of electric board being worked on",
     title: "general electrical issues",
     text: "Whatever the problem — big or small — we have the skills to resolve it quickly and safely.",
     textb: "Available 24/7.  Just give us a call",
@@ -44,6 +56,7 @@ export const projects = [
   {
     id: nanoid(),
     img: maintImg,
+    alt: "photo of electric tubes ready for wiring",
     title: " Maintenance",
     text: "Need someone you can rely on — especially in an emergency? With several electricians available, we can be there when you need us",
     textb: "Our Maintenance contracts can be tailored to your business needs.",
@@ -52,6 +65,7 @@ export const projects = [
   {
     id: nanoid(),
     img: renoImg,
+    alt: "photo of renovated kitchen",
     title: "Renovations",
     text: "Looking for a team that adapts to the challenges of your site? ",
     textb: "Tool Elec has the skills to deliver the best renovation possible.",
@@ -60,6 +74,7 @@ export const projects = [
   {
     id: nanoid(),
     img: autoImg,
+    alt: "photo of tablet controlled home",
     title: "home automation",
     text: "Want to control your home from your fingertips? ",
     textb: "We have the expertise to bring your home into the 21st century.",
@@ -68,6 +83,7 @@ export const projects = [
   {
     id: nanoid(),
     img: newImg,
+    alt: "photo of new electric point being installed",
     title: "New builds",
     text: "Finding the right team to bring your home to life can be stressful. We’ll guide your project from start to finish — every step of the way.",
     textb:
@@ -77,6 +93,7 @@ export const projects = [
   {
     id: nanoid(),
     img: chargingImg,
+    alt: "Photo of car charging",
     title: "Charging ports",
     text: "Just bought an electric vehicle and need a charging point installed? We can take care of it.",
     textb:
@@ -89,13 +106,15 @@ export const brand = [
   {
     id: nanoid(),
     img: hagerImg,
+    alt: "hager logo",
     title: "hager logo",
   },
   {
     id: nanoid(),
     img: basalteImg,
+    alt: "basalte logo",
     title: "basalte logo",
   },
 
-  { id: nanoid(), img: legrandImg, title: "legrand logo" },
+  { id: nanoid(), img: legrandImg, alt: "legrand logo", title: "legrand logo" },
 ];

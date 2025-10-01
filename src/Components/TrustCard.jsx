@@ -12,5 +12,6 @@ export const TrustCard = ({ img, title }) => {
 
 TrustCard.propTypes = {
   img: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };

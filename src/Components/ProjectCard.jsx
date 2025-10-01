@@ -20,7 +20,7 @@ const ProjectCard = ({ img, title, text, textb, cta }) => {
           </p>
           <div className="mt-auto">
             <a
-              href="tel:0616247824"
+              href="tel:0616247825"
               className="inline-flex items-center bg-blue-600 text-zinc-100 px-3 py-2 rounded hover:bg-blue-700 transition"
             >
               <PiPhoneCallFill className="mr-2" />

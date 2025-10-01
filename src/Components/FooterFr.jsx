@@ -24,7 +24,7 @@ const FooterFr = () => {
         </article>
         <div className="text-zinc-200 font-thin grid md:place-items-end">
           <p>0.5 Carlene, 73210, LA PLAGNE - TARENTASIE</p>
-          <p>06 16 24 78 24</p>
+          <p>06 16 24 78 25</p>
           <p>toolelec73@gmail.com</p>
         </div>
       </div>

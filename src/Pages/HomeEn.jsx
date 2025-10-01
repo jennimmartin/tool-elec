@@ -19,6 +19,9 @@ const HomeEn = () => {
   return (
     <>
       <Helmet>
+        {/* Set page language */}
+        <html lang="en" />
+
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
         <link rel="canonical" href={`${siteUrl}/en`} />

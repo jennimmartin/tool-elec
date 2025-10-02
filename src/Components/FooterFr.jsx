@@ -23,7 +23,8 @@ const FooterFr = () => {
           </div>
         </article>
         <div className="text-zinc-200 font-thin grid md:place-items-end">
-          <p>0.5 Carlene, 73210, LA PLAGNE - TARENTASIE</p>
+          <p>0.5 Carene, Belle Plagne, 73210 </p>
+          <p>LA PLAGNE - TARENTAISE</p>
           <p>06 16 24 78 25</p>
           <p>toolelec73@gmail.com</p>
         </div>

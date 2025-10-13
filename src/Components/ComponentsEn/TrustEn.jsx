@@ -7,7 +7,7 @@ const TrustEn = () => {
     <section className="align-element">
       <div>
         <p className=" text-zinc-200 font-thin text-center">
-          We&#39;nre trusted by
+          We&#39;re trusted by
         </p>
       </div>
       <div className="py-16 grid gap-8 md:grid-cols-3">

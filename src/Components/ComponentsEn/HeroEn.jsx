@@ -4,14 +4,14 @@ import Button from "../Button";
 const Hero = () => {
   return (
     <div
-      className="align-element min-h-screen flex flex-col items-center justify-center py-24 "
+      className="align-element h-[100dvh] flex flex-col items-center justify-center py-24 "
       id="home"
     >
       <div className="w-full flex justify-center">
         <img
           src={heroImg}
           alt="Tool Elec Logo"
-          className="h-48 md:h-2/3 w-auto object-cover"
+          className="max-h-[60vh] w-auto object-contain"
         />
       </div>
       <article>

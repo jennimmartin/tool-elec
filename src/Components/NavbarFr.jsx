@@ -8,7 +8,7 @@ const Navbar = () => {
         <h2 className="text-3xl font-bold text-zinc-50">
           Tool<span className="text-zinc-500">Elec</span>
         </h2>
-        <div className="flex gap-x-3 text-zinc-100">
+        <div className="flex gap-x-3 space-x-3 text-zinc-100">
           {FrLinks.map((link) => {
             const { id, href, text } = link;
             return (

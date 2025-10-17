@@ -13,8 +13,8 @@ const CONFIG = {
     location: "San Francisco, USA",
   },
   analytics:
-    "Simple Analytics (privacy-friendly, no cookies, no personal data stored)",
-  lastUpdated: "September 2025",
+    "Simple Analytics (privacy-friendly, no cookies, no personal data) + Google Search Console (search visibility monitoring only)",
+  lastUpdated: "October 2025",
 };
 
 export default function LegalNotice() {
@@ -73,7 +73,10 @@ export default function LegalNotice() {
         <h3 className="text-lg mt-4 font-bold">Statistiques</h3>
         <p>
           Ce site utilise {CONFIG.analytics}. Aucun cookie n’est déposé et
-          aucune donnée personnelle n’est collectée.
+          aucune donnée personnelle n’est collectée. Des outils de Google, tels
+          que Google Search Console, peuvent être utilisés afin de suivre la
+          visibilité du site dans les résultats de recherche, sans traitement de
+          données personnelles des visiteurs.
         </p>
 
         <h3 className="text-lg mt-4 font-bold">Données personnelles</h3>
@@ -164,7 +167,9 @@ export default function LegalNotice() {
         <h3 className="text-lg mt-4 font-bold">Analytics</h3>
         <p>
           This site uses {CONFIG.analytics}. No cookies are set, and no
-          personally identifiable information is collected.
+          personally identifiable information is collected. Google tools, such
+          as Google Search Console, may be used to monitor the site’s presence
+          in search results, without collecting any personal data from visitors.
         </p>
 
         <h3 className="text-lg mt-4 font-bold">Personal Data</h3>

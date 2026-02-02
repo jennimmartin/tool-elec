@@ -30,12 +30,24 @@ const FooterEn = () => {
 
       <h5 className="text-center pt-6 font-thin text-zinc-200">
         <span className="font-bold hover:text-zinc-500 duration-300">
-          <Link to="/legal">Legal bits </Link>
+          <Link to="/legal">Legal bits</Link>
         </span>
-        | &copy; {new Date().getFullYear()}
-        <span> | Created by jennimmartin</span>
+        {" | "}
+        &copy; {new Date().getFullYear()}
+        {" | "}
+        <span>
+          Created by{" "}
+          <a
+            href="https://jennimmartin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-zinc-500 duration-300"
+          >
+            Jenni M Martin
+          </a>
+        </span>
       </h5>
-      <div className="border-b border-red-500 pb-2 "></div>
+      <div className="border-b border-red-500 pb-2"></div>
     </section>
   );
 };

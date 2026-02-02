@@ -22,6 +22,7 @@ const FooterFr = () => {
             </a>
           </div>
         </article>
+
         <div className="text-zinc-200 font-thin grid md:place-items-end">
           <p>0.5 Carene, Belle Plagne, 73210 </p>
           <p>LA PLAGNE - TARENTAISE</p>
@@ -31,13 +32,25 @@ const FooterFr = () => {
       </div>
 
       <h5 className="text-center pt-6 font-thin text-zinc-200">
-        <span className="font-bold  hover:text-zinc-500 duration-300">
-          <Link to="/legal">Mentions légales </Link>
+        <span className="font-bold hover:text-zinc-500 duration-300">
+          <Link to="/legal">Mentions légales</Link>
         </span>
-        | &copy; {new Date().getFullYear()}
-        <span> | créé par jennimmartin</span>
+        {" | "}
+        &copy; {new Date().getFullYear()}
+        {" | "}
+        <span>
+          créé par{" "}
+          <a
+            href="https://jennimmartin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-zinc-500 duration-300"
+          >
+            Jenni M Martin
+          </a>
+        </span>
       </h5>
-      <div className="border-b border-red-500 pb-2 "></div>
+      <div className="border-b border-red-500 pb-2"></div>
     </section>
   );
 };

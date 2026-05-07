@@ -1,4 +1,4 @@
-import errorImg from "../Images/errorImg.jpg";
+import errorImg from "../Images/errorImg.png";
 import { Link, useRouteError } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 
